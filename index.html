@@ -16,6 +16,25 @@
       .elearning-img {
         margin-left: -10px;
       }
+
+      @media screen and (min-width: 375px) and (max-width: 576px){
+        /* .carousel {
+          width: 100%;
+        } */
+       .carousel-item {
+        width: 100%;
+       }
+            .font-size {
+              font-size: 20px;
+              margin: 0;
+              padding: 0;
+            }
+            .slider-button {
+              margin: 0;
+              padding: 0;
+            }
+        }
+
     </style>
   </head>
   <body>
@@ -61,10 +80,10 @@
           <div class="carousel-item active">
             <img  src="images/cover/cover-1.png" class="d-block w-100" alt="...">
 
-            <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
-              <h2 class="fs-2 fw-bold">Get Start Learn with nurTech</h2>
+            <div class="carousel-caption d-flex flex-column justify-content-center  align-items-center h-100">
+              <h2 class="font-size fw-bold">Get Start Learn with nurTech</h2>
               <p>welcome to our most popular courses website. build your life from today. so let's enroll in our courses </p>
-              <a class="btn btn-primary py-2 px-3 fw-bold fs-6 fw-semibold mt-3" href="">Get Started</a>
+              <a class="slider-button btn btn-primary py-2 px-3 fw-bold fs-6 fw-semibold mt-3" href="">Get Started</a>
             </div>
 
           </div>
@@ -122,7 +141,7 @@
                 <div class="row border mb-4">                                    
                   <div class="col-md-4">
                      <!-- course image thaumbnail  -->
-                   <img class="w-100" src="images/course/course-1.png" alt="">
+                   <img class="img-fluid w-100" src="images/course/course-1.png" alt="">
                    </div>
                    <!-- course detail  -->
                   <div class="col-md-8 mt-3">
@@ -130,7 +149,7 @@
                     <p>modern Fundamental Of UI/UX Design for Beginners. so let's start with our course</p>
                     <h5>price:$ 250</h5>
                   </div>             
-                </div>
+                </div>              
                 <!-- course 2  -->
                 <div class="row border  mb-4">                                    
                   <div class="col-md-4">
@@ -257,7 +276,7 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">fill up the form</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -281,11 +300,11 @@
                       </div>
                       <div class="col-12">
                         <label for="inputAddress" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Current address">
                       </div>
                       <div class="col-12">
                         <label for="inputAddress2" class="form-label">Address 2</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Permanent address">
                       </div>
                       <div class="col-md-6">
                         <label for="inputCity" class="form-label">City</label>
